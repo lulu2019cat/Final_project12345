@@ -10,8 +10,7 @@ router.use(function timeLog(req, res, next) {
 
 router.get('/', function(req, res) {
   res.send('Bob\'s home page');
-  '<a href="/user/Bob/about"> about </a>'+'<br>'+
-    '<a href="/user/Bob/classA.html"> classA </a>'
+  '<a href="/user/Bob/about"> about </a>'
 });
 
 // define the about route
