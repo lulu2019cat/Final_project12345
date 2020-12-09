@@ -21,7 +21,7 @@ router.get('/', function(req, res) {
 router.get('/about', function(req, res) {
   res.send(
     '<h1> About Victoria </h1>'+
-    '\n <img src="https://www.omgtw.com/upload/article/original/be134fac90625546754962aeef34925c.jpg" height="60%">'
+    '\n <img src="https://img.itinari.com/pages/images/original/c46b832d-deb5-4988-800c-ceb368d3883a-istock-490129602.jpg?ch=DPR&dpr=1.25&w=1600&s=c5e23ce3664efaf2a66425cdaf60d2d6" height="60%">'
     );
 });
 

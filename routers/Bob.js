@@ -17,7 +17,7 @@ router.get('/', function(req, res) {
 router.get('/about', function(req, res) {
   res.send(
   '<h1> About Bob </h1>'+
-    '\n <img src="https://www.omgtw.com/upload/article/original/be134fac90625546754962aeef34925c.jpg" height="60%">'
+    '\n <img src="https://cdn.britannica.com/s:700x500/78/43678-050-F4DC8D93/Starry-Night-canvas-Vincent-van-Gogh-New-1889.jpg" height="60%">'
   );
 });
 
