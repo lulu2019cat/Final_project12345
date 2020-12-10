@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+router.use(express.static('./public'));
 
 // middleware that is specific to this router
 router.use(function timeLog(req, res, next) {
@@ -9,8 +10,10 @@ router.use(function timeLog(req, res, next) {
 // define the home page route
 
 router.get('/', function(req, res) {
-  res.send('Bob\'s home page');
+  res.send(
+  'Bob\'s home page'+'<br>'+
   '<a href="/user/Bob/about"> about </a>'
+  );
 });
 
 // define the about route
