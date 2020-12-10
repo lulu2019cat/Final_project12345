@@ -10,14 +10,14 @@ router.use(function timeLog(req, res, next) {
 
 router.get('/', function(req, res) {
   res.send('Bob\'s home page');
-  '<a href="/user/Bob/about"> about </a>'+'<br>'
+  '<a href="/user/Bob/about"> about </a>'
 });
 
 // define the about route
 router.get('/about', function(req, res) {
   res.send(
   '<h1> About Bob </h1>'+
-    '\n <img src="https://cdn.britannica.com/s:700x500/78/43678-050-F4DC8D93/Starry-Night-canvas-Vincent-van-Gogh-New-1889.jpg" height="60%">'
+    '\n <img src="https://img.itinari.com/pages/images/original/428bec10-f8b4-4baa-84f3-092f557a1ed8-nicecover.jpg?ch=DPR&dpr=1.25&w=1600&s=e80263aceaf2fc2111b5daa801f761fd" height="60%">'
   );
 });
 
