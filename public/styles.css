@@ -1,5 +1,5 @@
 body{
-    background: hsl(60, 17%, 94%);
+    background: hsl(288, 69%, 83%);
     font-family: ubuntu;
 }
 
@@ -35,7 +35,7 @@ td {
 }
 
 table {
-    border:8px rgb(174, 139, 240) groove; 
+    border:8px rgb(160, 5, 250) groove; 
     border-radius:25px;
 }
 
@@ -44,7 +44,7 @@ form input{
     width: 25%;
     margin: 0;
     border: 0;
-    border-bottom: 1px solid rgb(221, 132, 132);
+    border-bottom: 1px solid rgb(238, 2, 2);
     margin: 0 1%;
     padding: 10px;
     display: block;
@@ -67,7 +67,7 @@ form:after{
 
 button{
     border: 0;
-    background: rgb(40, 19, 226);
+    background: rgb(91, 240, 5);
     border-radius: 10px;
     padding: 13px;
     width: 10%;
@@ -75,5 +75,5 @@ button{
     font-weight: bold;
     font-family: ubuntu;
     letter-spacing: 1px;
-    color: #999;
+    color: rgb(235, 238, 190);
 }
